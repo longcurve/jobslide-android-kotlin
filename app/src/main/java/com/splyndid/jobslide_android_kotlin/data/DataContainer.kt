@@ -2,7 +2,7 @@ package com.splyndid.jobslide_android_kotlin.data
 
 class DataContainer {
     // Since you want to expose userRepository out of the container, you need to satisfy
-    // its dependencies as you did before
+    // its dependencies
     private val retrofit: Retrofit.Builder()
             .baseUrl("https://example.com")
             .build()
